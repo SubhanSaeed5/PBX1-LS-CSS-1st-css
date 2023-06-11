@@ -1,0 +1,171 @@
+<!DOCTYPE html>shadow
+<html>
+    <header>
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/fonts.css">
+        <title>Subhna Saeed</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/scripts/all.min.js"></script>
+    </header>
+    <body>
+       
+        <iframe id="background_video" class="background-video" src="https://www.youtube.com/embed/Qqqo4HOGJnM?autoplay=1&amp;showinfo=0&amp;controls=0&amp;loop=1&amp;playsinline=1&amp;mute=1&amp;playlist=Qqqo4HOGJnM" frameborder="0" allow="autoplay" allowfullscreen="0"></iframe>
+       mute=0&amp;rel=
+        <img id="cursor" src="assets/media/cursor.png">
+        <div class="overlay">
+            <div class="cornercontainer">
+                <div class="top">
+                    <div class="left">
+                        <p  class="title" >PBX-1 Roleplay</p>
+                        <p  class="title" id="Custom">PUNJABI BOYZ</p>
+                        <span class="date" id="liveTime"></span>
+                       
+                         <style>
+                            #liveTime {
+                              font-size: 10px;
+                              color: rgb(0, 255, 0);
+                            
+                            
+                            }
+                          </style>
+
+
+
+                         
+                         <script>
+                            // Get the element where you want to display the live time
+                            const liveTimeElement = document.getElementById('liveTime');
+                          
+                            // Function to update the time every second
+                            function updateTime() {
+                              // Get the current date and time
+                              const now = new Date();
+                          
+                              // Format the time as desired (you can customize this according to your needs)
+                              const time = now.toLocaleTimeString();
+                          
+                              // Update the content of the live time element
+                              liveTimeElement.textContent = time;
+                            }
+                          
+                            // Call updateTime() initially to set the time immediately
+                            updateTime();
+                          
+                            // Call updateTime() every second (1000 milliseconds)
+                            setInterval(updateTime, 1000);
+                          </script>
+                         <style>
+                            #Custom {
+                              font-size: 10px;
+                              color: rgb(0, 255, 0);
+                              
+                              margin-left:0;
+                            }
+                          </style>
+
+                      
+                    </div>
+                    
+                </div>
+
+
+
+
+
+
+              
+
+
+
+                
+            </div>
+
+            <div class="container">
+                <div class="information">
+                    <p class="title" >PBX-1 Roleplay  </p>
+                    <div class="description"><p></p></div>
+                    <div class="buttons">
+                        <button id="read-more">Read More! <i class="fal fa-long-arrow-right" style="margin-left: 0.5vw;font-size: 0.9vw;"></i></button>
+                        <button id="collapse" style="display: none;">Thanks, Read Less!</button>
+                    </div>
+                </div>
+
+                <div class="loader">
+                    <div class="logo">
+                        <img class="transparent-logo" src="assets/media/transparent-logo.png">
+                        <img class="filled-logo" src="assets/media/filled-logo.png">
+                    </div>
+                    <p class="progress">0%</p>
+                    <p class="description">Thora Sa Sabrr Krr Loo</p>
+                    <p class="description" id="date"></p>
+                </div>
+
+                <div class="categories">
+                    <div class="buttons">
+
+                    </div>
+                    <div class="carousel">
+                        <div class="socialmedia">
+
+                        </div>
+                        <div class="staff">
+                            <div class="previous"></div>
+                            <div class="cards">
+                                <div class="innercards">
+        
+                                </div>
+                                <div class="pages">
+                                    
+                                </div>
+                            </div>
+                            <div class="next"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hideoverlay">
+                    
+                    Tʜᴇᴍᴇ ʙʏ Sᴜʙʜᴀɴ Sᴀᴇᴇᴅ
+
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <script src="assets/scripts/config.js" type="text/javascript"></script>
+        <script src="assets/scripts/main.js" type="text/javascript"></script>
+        
+        <audio id='muzica' volume='0.2' autoplay >
+            <source src="https://www.youtube.com/embed/LgxoDKTG9KM?autoplay=1&amp;showinfo=0&amp;controls=0&amp;loop=1&amp;playsinline=1&amp;0&amp;playlist=LgxoDKTG9KM" type="audio/mpeg">
+          </audio>
+
+           <script>
+			var play = false;
+			var myAudio = document.getElementById("muzica");
+			
+			myAudio.volume = 0.2;
+		
+			function onKeyDown(event) {
+					switch (event.keyCode) {
+						case 32: //SpaceBar                    
+							if (play) {
+								myAudio.pause();
+								play = false;
+							} else {
+								myAudio.play();
+								play = true;
+							}
+							break;
+					}
+			  return false;
+			}
+		
+			window.addEventListener("keydown", onKeyDown, false);
+		</script>
+
+        
+    </body>
+</html>
